@@ -1,0 +1,61 @@
+
+.title {
+	color: white;
+}
+.sub-title {
+	color: rgb(193, 127, 6);
+}
+
+.nav-title {
+	color: rgb(0, 229, 175);
+}
+.nav-list {
+	color: rgb(106, 158, 1);
+}
+
+.main-block-title {
+	color: rgb(16, 0, 190);
+}
+
+.main-text {
+	color: blue;
+}
+.text-style {
+	color: green;
+}
+.text-2 {
+	color: rgb(174, 174, 2);
+}
+
+.title-conect {
+	color: rgb(0, 236, 232);
+}
+
+.global-title {
+	color: brown;
+}
+.global-text {
+	color: lawngreen;
+}
+
+.out-title {
+	color: chocolate;
+}
+.out-text {
+	color: blueviolet;
+}
+.in-title {
+	color: royalblue;
+}
+.in-text {
+	color: rebeccapurple;
+}
+
+.titel-priority {
+	color: gold;
+}
+
+.list-style {
+	color: darkblue;
+}
+

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css">
+		<title>Lesson 3</title>
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<div class="titles">
+					<div class="titles-image">
+						<img width="600" src="img/title.jpeg" alt="Зображення Фрілансера">
+					</div>
+					<h1 id="top" class="title"><mark>Зіркові Фрілансери</mark></h1>
+					<h2 class="sub-title">Епізод №3. Початок вивчення сили CSS</h2>
+				</div>
+				<nav class="nav">
+					<h2 class="nav-title">Навігація по посиланню</h2>
+					<ul class="nav-list">
+						<a href="#main">
+							<li>Основи CSS</li>
+						</a>
+						<a href="#conect">
+							<li>Варіанти підключення CSS</li>
+						</a>
+						<a href="#priority">
+							<li>Пріорітетність</li>
+						</a>
+					</ul>
+				</nav>
+			</header>
+			<main class="main-content">
+				<div id="main" class="main-block">
+					<h2 class="main-block-title">Основи CSS</h2>
+					<div class="main-image">
+						<img width="600" src="img/style.png" alt="Зображення Стилю">
+					</div>
+					<p class="main-text">У цьому єпізоді молоді падавани почнуть знайомство з каскадними таблицями стилю
+						іменованими CSS.
+						На них чекає захоплююча подорож у мові, яка відповідає за опис зовнішнього вигляду HTML-документа.
+						Переважна більшість сучасних веб-сайтів працюють на основі зв'язку <span
+							class="text-style">HTML+CSS</span>.</p>
+					<p class="text-2">CSS використовується для визначення стилів (правил) оформлення документів - включаючи
+						дизайн, верстку та
+						варіації макету для різних пристроїв та розмірів екрану. У мови CSS відносно простий синтаксис.
+						Спочатку
+						прописується селектор він вибирає конкретний елемент на сторінці. Потім після фігурних дужок
+						вказуються
+						властивості зі значеннями - між ними ставиться двокрапка. Самі властивості відокремлюються один від
+						одного крапкою з
+						комою.</p>
+					<div class="example-img">
+						<img src="img/css.png" alt="">
+					</div>
+				</div>
+				<div id="conect" class="block-conect">
+					<h2 class="title-conect">Варіанти підключення CSS:</h2>
+					<div class="conect-image">
+						<img width="600" src="img/conect.png" alt="Зображення CSS">
+					</div>
+					<ul class="conect-list">
+						<li> <a href="#global">Глобальнний CSS</a></li>
+						<li><a href="#out">Зовнішній CSS</a></li>
+						<li><a href="#in">Внутрішній CSS</a></li>
+					</ul>
+					<div class="body-conect">
+						<h3 id="global" class="global-title">Глобальнний CSS</h3>
+						<p class="global-text">Глобальний CSS розміщується в контейнері "head"
+							конкретної сторінки. При такому варіанті підключення класи та ідентифікатори (ID) можуть бути
+							використані
+							для звернення до <span class="style">CSS коду</span> однак, вони будуть активні тільки на цій
+							конкретній сторінці.</p>
+						<h3 id="out" class="out-title">Зовнішній CSS</h3>
+						<p class="out-text">Можливо найзручніший варіант для підключення CSS до вашого сайту, це його
+							прив'язка до зовнішнього
+							.css файлу. У цьому випадку всі зміни, зроблені в зовнішньому<mark>CSS файлі</mark>, будуть в
+							цілому відображатися на вашому сайті.</p>
+						<h3 id="in" class="in-title">Внутрішній CSS</h3>
+						<p class="in-text">Внутрішній CSS використовується для конкретного HTML тега. Атрибут "style"
+							використовується для
+							налаштування цього тега. Цей варіант підключення CSS не є рекомендованим, тому що в цьому випадку
+							потрібно налаштовувати кожен тег HTML окремо.</p>
+					</div>
+				</div>
+				<div id="priority" class="block-priority">
+					<h3 class="titel-priority">Пріорітетність щодо спадання</h3>
+					<div class="priority-image">
+						<img width="600" src="img/type.jpeg" alt="Зображення">
+					</div>
+					<ol class="list-style">
+						<li>.class.class{}</li>
+						<li>.class tag{}
+							<ol>
+								<li class="tag-low">tag .class{}</li>
+							</ol>
+						</li>
+						<li>tag tag{}</li>
+						<li>tag{}</li>
+					</ol>
+				</div>
+			</main>
+			<footer class="footer"><a target="_blank" href="https://fls.guru/">Та прибуде з Вами сила верстки!</a>
+				<a href="#top">На гору</a>
+			</footer>
+		</div>
+	</body>
+
+
+</html>
